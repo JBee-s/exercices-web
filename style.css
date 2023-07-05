@@ -24,6 +24,11 @@ body{
     min-height: 500px;
 }
 
+.price{
+    display: flex;
+    flex-direction: row;
+}
+
 .item{
 display: flex;
 flex:1;
@@ -39,6 +44,7 @@ h1{
 
 h2{
     text-transform:uppercase;
+    letter-spacing: 0.5em;
     font-family: 'Montserrat', sans-serif;
 }
 
